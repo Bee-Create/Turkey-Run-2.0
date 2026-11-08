@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  background-image: url("https://writecraftpro.com/wp-content/uploads/2026/11/Turkey-Run-Game_Background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.instructions {
+  text-align: center;
+  margin-bottom: 25px;
+  background: rgba(255, 248, 225, 0.92);
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: 3px solid #8d6e63;
+}
+
+h1 {
+  color: #8b4513;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+#bold-text {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.game-container {
+  position: relative;
+  width: 90vw;
+  max-width: 900px;
+  height: 300px;
+  overflow: hidden;
+
+  border: 6px solid #6d4c41;
+  border-radius: 25px;
+
+  transition: background 3s;
+}
+
+.day {
+  background:
+    linear-gradient(
+      to top,
+      #6ab04c 0%,
+      #6ab04c 25%,
+      #d9f1ff 25%,
+      #87ceeb 100%
+    );
+}
+
+.night {
+  background:
+    linear-gradient(
+      to top,
+      #1f4726 0%,
+      #1f4726 25%,
+      #0d1b2a 25%,
+      #1b263b 100%
+    );
+}
+
+#score,
+#corn-score {
+  position: absolute;
+  top: 15px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  z-index: 5;
+}
+
+#score {
+  right: 20px;
+}
+
+#corn-score {
+  left: 20px;
+}
+
+#turkey {
+  position: absolute;
+  left: 80px;
+  bottom: 25px;
+  font-size: 64px;
+}
+
+.turkey-icon {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
+#obstacle {
+  position: absolute;
+  bottom: 25px;
+  font-size: 50px;
+}
+
+/* HIGHER CROW */
+#airObstacle {
+  position: absolute;
+  top: 45px;
+  font-size: 50px;
+}
+
+#corn {
+  position: absolute;
+  bottom: 140px;
+  font-size: 40px;
+}
+
+.jump {
+  animation: jump 0.7s ease-out;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 25px;
+  }
+
+  50% {
+    bottom: 180px;
+  }
+
+  100% {
+    bottom: 25px;
+  }
+}
+
+#message {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  font-size: 2rem;
+  font-weight: 900;
+
+  text-align: center;
+
+  padding: 20px 30px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 248, 225, 0.95);
+
+  z-index: 20;
+
+  cursor: pointer;
+}

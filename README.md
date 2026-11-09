@@ -1,4 +1,4 @@
-<h2>>🦃 Turkey Run 2.0 - Endless Runner Game 🦃</h2>
+<h2>🦃 Turkey Run 2.0 - Endless Runner Game 🦃</h2>
 <h3>View Live Page</h3>
 Visit <a href="">my live page</a> to see the code perform.<br>
 <h3>Purpose of This Project</h3>

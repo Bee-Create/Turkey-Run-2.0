@@ -2,7 +2,16 @@
 <h3>View Live Page</h3>
 Visit <a href="">my live page</a> to see the code perform.<br>
 <h3>Purpose of This Project</h3>
-This is a browser-based endless runner game that challenges players to control a turkey and jump over incoming pumpkin obstacles, as well as jumping up to eat corn while avoiding flying crows, to earn points. The game uses click and tap interactions, making it accessible on both desktop and mobile devices. Each successful jump increases the player's score, while colliding with a pumpkin triggers a game-over state and allows the player to restart the game with a simple click or tap. The application incorporates event-driven gameplay, collision detection, score tracking, and restart functionality to create an engaging arcade-style experience. The game has been fully tested to verify accurate scoring, obstacle interactions, game state transitions, and overall functionality.  <br>
+This is a browser-based endless runner game that challenges players to control a turkey and jump over incoming pumpkin obstacles, as well as jumping up to eat corn while avoiding flying crows, to earn points. The game uses click and tap interactions, making it accessible on both desktop and mobile devices.<br>
+<h3>Game Breakdown & Features:</h3>
+<ul>
+  <li>Click or tap to jump</li>
+  <li>Dodge pumpkins and flying crows</li>
+  <li>Jump up to eat the corn</li>
+  <li>Scene rotates from day to night</li>
+  <li>Hitting a pumpkin or crow triggers "game over"</li>
+  <li>Click or tap to start again after game over</li>
+</ul>
 <h3>Tools & Tech Used</h3>
 <UL>
   <li>JavaScript</li>
